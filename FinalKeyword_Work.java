@@ -1,7 +1,7 @@
 package Java.work;
 class Car{
 	public void car1() {
-		System.out.println("BMW");
+		System.out.println("Safari");
 	}
 }
 class Car1 extends Car{
