@@ -29,7 +29,7 @@ class WhatsApp_App extends Software {
     @Override
     void app_open() {
         while (true) {
-            if (Phone_Number.equals("8688238202") && OTP.equals("1234")) {
+            if (Phone_Number.equals("9999999999") && OTP.equals("829323")) {
                 System.out.println("Successfully Login Completed, Welcome to App");
                 break;
             } else {
