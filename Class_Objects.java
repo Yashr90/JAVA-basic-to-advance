@@ -15,7 +15,7 @@ public void display() {
 	System.out.println("Std NAme:"+name+"Age:"+age);
 }
 public static void main(String[]args) {
-	Class_Objects s1=new Class_Objects("nokesh",20);
+	Class_Objects s1=new Class_Objects("yash",22);
 	s1.display();
 }
 }
