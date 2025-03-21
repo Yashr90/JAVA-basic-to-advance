@@ -1,0 +1,26 @@
+// Parent class
+class Animal {
+    // Method to be overridden
+    void makeSound() {
+        System.out.println("Animals make sounds");
+    }
+}
+
+//Child class
+class Dog extends Animal {
+    // Overriding the method
+    @Override
+    void makeSound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class MethodOverridingExample {
+    public static void main(String[] args) {
+        Animal myAnimal = new Animal(); // Parent class reference
+        myAnimal.makeSound(); // Calls parent class method
+        
+        Animal myDog = new Dog(); // Upcasting
+        myDog.makeSound(); // Calls overridden method in Dog class
+    }
+}
