@@ -21,7 +21,7 @@ class Child3 extends Super{
 public class SuperKeyword {//main class
 
 	public static void main(String[] args) {
-		Child3 s =new Child3("Nokesh");
+		Child3 s =new Child3("Yash");
 	
 		
 
