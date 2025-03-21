@@ -51,7 +51,7 @@ class Emp {
 public class EmpDetails {
     public static void main(String[] args) {
         Emp ex = new Emp();
-        ex.setPhone("8688238202"); // Setting phone number
+        ex.setPhone("9999999999"); // Setting phone number
 
         // Display all details
         ex.displayDetails();
