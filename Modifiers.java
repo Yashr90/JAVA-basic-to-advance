@@ -21,7 +21,7 @@ public class Modifiers { //public,private,protected,default,
 	
 	int c =300; //default
 	
-	private String name="Nokesh";//private
+	private String name="Yash";//private
 	
 	
 
