@@ -1,10 +1,10 @@
 package Java.work;  // Ensure the package matches your folder structure
 
 class Emp {
-    private int empId = 101;
-    private String empName = "Nokesh";
-    private int salary = 20000;
-    private String address = "xyz street";
+    private int empId = 1001;
+    private String empName = "Yash";
+    private int salary = 50000;
+    private String address = "Bengaluru";
     private String phone;
 
     // Constructor
