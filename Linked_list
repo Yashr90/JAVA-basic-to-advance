@@ -1,0 +1,23 @@
+package app;
+import java.util.LinkedList;
+import java.util.List;
+public class Linked_list {
+public static void main(String[] args) {
+	List<String> heros = new LinkedList<>();
+	System.out.println("My Linked List"+heros);
+	heros.add("Ranbir Kapoor");
+	heros.add("Shahid Kapoor");
+	heros.add("Amir khan");
+	heros.add("Hardik Pandya");
+	heros.add("Manoj Bajpayee");
+	
+	System.out.println("My Linked List after adding:"+heros);
+	heros.remove(3);
+	System.out.println("My Linked List after removing:"+heros);
+	String temp = heros.get(0);
+	System.out.println("My fav actor is :"+temp);
+	for (String hero:heros) {
+		System.out.println("My Linked List with indexing :"+hero);
+	}
+}
+}
